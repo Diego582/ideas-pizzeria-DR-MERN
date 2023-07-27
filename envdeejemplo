@@ -1,0 +1,4 @@
+NODE_URL=http://localhost:XXXX
+REACT_PORT=XXXX
+MONGOUSER=xxxxxxxxx
+MONGOPASSWORD=xxxxxxxxxxx
