@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
-import { Box, Typography } from "@mui/material";
+import { Box} from "@mui/material";
+import ListadoComidas from "./views/listcomidas";
 
 
 
@@ -10,7 +11,7 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Typography variant="h1" color="initial">esto es home de pizzeria</Typography>}
+          element={<ListadoComidas />}
         ></Route>
       </Routes>
     </Box>
